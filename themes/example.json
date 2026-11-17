@@ -1,0 +1,13 @@
+{
+  "bg": "#141016",
+  "fg": "#f2e9e4",
+  "kw": "#ff8fab",
+  "fn": "#ffc8dd",
+  "str": "#b5e48c",
+  "num": "#ffd166",
+  "comment": "#7d6e83",
+  "op": "#f4978e",
+  "builtin": "#cdb4db",
+  "add": "#95d5b2",
+  "rm": "#ff8fa3"
+}

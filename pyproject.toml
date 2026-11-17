@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "anix-snap"
+version = "0.3.3"
+description = "Beautiful code screenshots right from your terminal"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "an1zy" }]
+dependencies = ["rich>=13"]
+
+[project.optional-dependencies]
+png = ["cairosvg"]
+dev = ["pytest"]
+
+[project.urls]
+Homepage = "https://github.com/an1zy/anix-snap"
+
+[project.scripts]
+anix-snap = "anix_snap:main"
+asnap = "anix_snap:main"
+
+[tool.setuptools]
+py-modules = ["anix_snap"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
