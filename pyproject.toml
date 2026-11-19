@@ -8,7 +8,7 @@ version = "0.3.3"
 description = "Beautiful code screenshots right from your terminal"
 readme = "README.md"
 requires-python = ">=3.9"
-license = { text = "MIT" }
+license = "MIT"
 authors = [{ name = "an1zy" }]
 dependencies = ["rich>=13"]
 
@@ -18,6 +18,9 @@ dev = ["pytest"]
 
 [project.urls]
 Homepage = "https://github.com/an1zy/anix-snap"
+Repository = "https://github.com/an1zy/anix-snap"
+Issues = "https://github.com/an1zy/anix-snap/issues"
+PyPI = "https://pypi.org/project/anix-snap/"
 
 [project.scripts]
 anix-snap = "anix_snap:main"
